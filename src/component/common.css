@@ -1,0 +1,168 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+.message {
+    width: 50%;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: red;
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: 1rem;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .login-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%;
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 80%;
+    }
+
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+/* TODOS------------------------------- */
+
+li {
+    text-align: start;
+    overflow: auto;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.specialBtn{
+    width: 100%;
+}
+.speacialForm{
+    position: relative;
+    width: 200%;
+    margin: 1rem;
+    max-width: initial;
+}
+ul {
+    position: fixed;
+    width: 50%;
+    overflow: auto;
+    height: 80%;
+    margin: auto 1rem auto 0;
+}
+.instructions {
+    margin: 1.5rem 0 1rem 0;
+    padding: 0.5rem;
+    font-style: oblique;
+    text-align: start;
+    font-size: smaller;
+}
+@media only screen and (max-width: 770px) {
+    .speacialForm{
+        position: relative;
+        width: 100%;
+        margin: 1rem;
+        max-width: inherit;
+    }
+    ul {
+        position: fixed;
+        width: 90%;
+        margin: auto 1rem auto 0;
+        height: 80%;
+    }
+    .login-main-text {
+        margin-top: 5%;
+        padding: 20px 60px;
+        text-align: center;
+        color: #fff;
+    }
+    .instructions {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .speacialForm{
+        position: relative;
+        width: 100%;
+        margin: 1rem;
+        max-width: inherit;
+    }
+    ul {
+        position: fixed;
+        width: 80%;
+        margin: auto 1rem auto 0;
+        height: 80%;
+    }
+    .instructions {
+        text-align: center;
+    }
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.63);
+}
+.lis {
+    display: flex;
+    justify-content: space-between;
+}
