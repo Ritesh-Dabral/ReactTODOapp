@@ -40,7 +40,7 @@ function App(){
         <div className="App">
           <Switch>
             <Route exact path="/"><Redirect to="/login"/></Route>
-            <Route exact path="/login">
+            <Route exact path="/login" component>
               <Login/>
             </Route>
             <Route exact path="/todo/:id">
